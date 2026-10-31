@@ -4,8 +4,12 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime, timezone
 
-SOURCES = {
-    "Coinbase": "https://www.coinbase.com/blog/rss.xml","CoinGecko": "https://blog.coingecko.com/feed/"
+SOURCES = {SOURCES = {
+    "Google Actualites": (
+        "https://news.google.com/rss/search?"
+        "q=crypto+airdrop+free+rewards"
+        "&hl=en-US&gl=US&ceid=US:en"
+    )
 }
 resultats = []
 

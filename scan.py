@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from datetime import datetime, timezone
 
-SOURCES = {SOURCES = {
+SOURCES = {
     "Google Actualites": (
         "https://news.google.com/rss/search?"
         "q=crypto+airdrop+free+rewards"

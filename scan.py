@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 
 SOURCES = {
     "Coinbase": "https://www.coinbase.com/blog/rss.xml","CoinGecko": "https://blog.coingecko.com/feed/"
-
+}
 resultats = []
 
 for nom, url in SOURCES.items():

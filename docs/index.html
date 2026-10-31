@@ -71,7 +71,43 @@ h1 { color: #38bdf8; }
 <p>Les offres vérifiées apparaîtront ici.</p>
 
 </div>
+<div class="card">
+  <h2>🔎 Articles détectés</h2>
+  <div id="resultats">Chargement...</div>
+</div>
 
+<script>
+async function charger() {
+  const zone = document.getElementById("resultats");
+  try {
+    const r = await fetch("./results.json?t=" + Date.now());
+    if (!r.ok) throw new Error("Chargement impossible");
+    const data = await r.json();
+    const articles = data.opportunites || [];
+    zone.textContent = "";
+
+    if (!articles.length) {
+      zone.textContent = "Aucun article détecté.";
+      return;
+    }
+
+    for (const article of articles) {
+      const p = document.createElement("p");
+      const a = document.createElement("a");
+      a.href = article.lien;
+      a.textContent = article.titre;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.style.color = "#38bdf8";
+      p.appendChild(a);
+      zone.appendChild(p);
+    }
+  } catch (e) {
+    zone.textContent = "Résultats indisponibles.";
+  }
+}
+charger();
+</script>
 </body>
 
 </html>

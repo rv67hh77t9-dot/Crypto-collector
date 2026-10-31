@@ -5,9 +5,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 SOURCES = {
-    "Coinbase": "https://www.coinbase.com/blog/rss.xml",
-    "CoinGecko": "https://www.coingecko.com/en/rss"
-}
+    "Coinbase": "https://www.coinbase.com/blog/rss.xml","CoinGecko": "https://blog.coingecko.com/feed/"
 
 resultats = []
 

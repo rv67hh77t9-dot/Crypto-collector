@@ -1,57 +1,35 @@
-import json
-import urllib.request
-from datetime import datetime, timezone
-from pathlib import Path
-import xml.etree.ElementTree as ET
+name: Crypto Collector - Recherche automatique
 
-# Sources publiques d'informations
-SOURCES = {
-    "Coinbase": "https://www.coinbase.com/blog/rss.xml",
-    "CoinGecko": "https://www.coingecko.com/en/rss"
-}
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
 
-resultats = []
+permissions:
+  contents: write
 
-for nom, url in SOURCES.items():
-    try:
-        req = urllib.request.Request(
-            url,
-            headers={"User-Agent": "CryptoCollector/1.0"}
-        )
-        with urllib.request.urlopen(req, timeout=15) as r:
-            xml = r.read()
+jobs:
+  recherche:
+    runs-on: ubuntu-latest
 
-        racine = ET.fromstring(xml)
+    steps:
+      - name: Recuperer les fichiers
+        uses: actions/checkout@v4
 
-        for article in racine.findall(".//item")[:10]:
-            titre = article.findtext("title", "")
-            lien = article.findtext("link", "")
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-            mots = [
-                "airdrop", "reward", "free",
-                "gratuit", "earn", "quest"
-            ]
+      - name: Rechercher les opportunites
+        run: python scan.py
 
-            if any(m in titre.lower() for m in mots):
-                resultats.append({
-                    "source": nom,
-                    "titre": titre,
-                    "lien": lien
-                })
-
-    except Exception as e:
-        print(f"Erreur {nom}: {e}")
-
-Path("docs").mkdir(exist_ok=True)
-
-donnees = {
-    "date": datetime.now(timezone.utc).isoformat(),
-    "opportunites": resultats
-}
-
-Path("docs/results.json").write_text(
-    json.dumps(donnees, ensure_ascii=False, indent=2),
-    encoding="utf-8"
-)
-
-print(f"{len(resultats)} articles détectés")
+      - name: Enregistrer les resultats
+        run: |
+          git config user.name "Crypto Collector Bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/results.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualisation des opportunites crypto"
+            git push
+          fi

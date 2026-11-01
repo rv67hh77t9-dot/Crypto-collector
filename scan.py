@@ -5,9 +5,22 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 SOURCES = {
-    "Google Actualites": (
+  "Airdrops gratuits France": (
+
         "https://news.google.com/rss/search?"
-        "q=crypto+airdrop+free+rewards"
+
+        "q=crypto+airdrop+free+France"
+
+        "&hl=fr&gl=FR&ceid=FR:fr"
+
+    ),
+
+    "Recompenses crypto": (
+
+        "https://news.google.com/rss/search?"
+
+        "q=crypto+learn+earn+rewards"
+
         "&hl=en-US&gl=US&ceid=US:en"
     )
 }

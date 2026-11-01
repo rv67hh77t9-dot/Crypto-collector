@@ -87,10 +87,16 @@ for nom, recherche in QUERIES.items():
                 urls_vues.add(lien)
 
                 resultats.append({
-                    "source": nom,
-                    "titre": titre,
-                    "lien": lien,
-                    "statut": "Article non verifie"
+                resultats.append({
+    "source": nom,
+    "titre": titre,
+    "lien": lien,
+    "statut": "A verifier",
+    "categorie": "Non classe",
+    "recuperation_automatique": False,
+    "compatible_coinbase": None,
+    "compatible_kraken": None
+})
                 })
 
     except Exception as erreur:

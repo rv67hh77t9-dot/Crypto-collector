@@ -13,7 +13,6 @@ QUERIES = {
     "Kraken":
         "Kraken crypto rewards earn France",
     "Coinbase":
-"Coinbase":
     "Coinbase rewards quests France",
 "Nouveaux airdrops":
     "new crypto airdrop 2026 free no deposit",

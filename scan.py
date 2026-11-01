@@ -87,7 +87,6 @@ for nom, recherche in QUERIES.items():
                 urls_vues.add(lien)
 
                 resultats.append({
-                resultats.append({
     "source": nom,
     "titre": titre,
     "lien": lien,

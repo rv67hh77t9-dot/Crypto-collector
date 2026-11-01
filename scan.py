@@ -49,8 +49,19 @@ for nom, url in SOURCES.items():
             mots = ["airdrop", "reward", "free",
                     "gratuit", "earn", "quest"]
 
-            if any(m in titre.lower() for m in mots):
-                resultats.append({
+            exclusions = [
+    "best wallet", "meilleur wallet",
+    "trading", "acheter",
+    "price prediction", "prédiction de prix",
+    "casino", "deposit bonus"
+]
+
+titre_minuscule = titre.lower()
+
+if (
+    any(m in titre_minuscule for m in mots)
+    and not any(e in titre_minuscule for e in exclusions)
+): resultats.append({
                     "source": nom,
                     "titre": titre,
                     "lien": lien

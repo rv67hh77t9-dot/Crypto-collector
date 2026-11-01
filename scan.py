@@ -22,7 +22,11 @@ SOURCES = {
         "q=crypto+learn+earn+rewards"
 
         "&hl=en-US&gl=US&ceid=US:en"
-    )
+    ),    "Kraken recompenses": (
+        "https://news.google.com/rss/search?"
+        "q=Kraken+crypto+rewards+earn"
+        "&hl=fr&gl=FR&ceid=FR:fr"
+    ),
 }
 resultats = []
 

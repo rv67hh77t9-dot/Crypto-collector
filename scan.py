@@ -96,7 +96,6 @@ for nom, recherche in QUERIES.items():
     "compatible_coinbase": None,
     "compatible_kraken": None
 })
-                })
 
     except Exception as erreur:
         erreurs.append(

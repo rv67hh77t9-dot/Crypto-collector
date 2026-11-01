@@ -56,7 +56,7 @@ for nom, url in SOURCES.items():
     "casino", "deposit bonus"
 ]
 
-titre_minuscule = titre.lower()
+            titre_minuscule = titre.lower()
 
 if (
     any(m in titre_minuscule for m in mots)

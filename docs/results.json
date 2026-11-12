@@ -1,11 +1,21 @@
 {
-  "date": "2026-11-11T08:06:23.681585+00:00",
+  "date": "2026-11-12T08:09:06.243262+00:00",
   "avertissement": "Articles a verifier : aucune recompense garantie.",
   "opportunites": [
     {
       "source": "Airdrops gratuits France",
       "titre": "Gagner des cryptos gratuitement : 14 méthodes pour gagner de la crypto-monnaie - Cryptonaute",
       "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqN1pQZ2dQLWo3R1hTdGZUNjMyOXhrdlZBb0RleFA0YTZnT2FkNFo4RlRpTmlpNmJBLXM1Vnc4X2ZmSDNld3FwMXJTZEpyamIycl9nbkwtSGZZN0loS2dsRE9NVVBuTzdlMTBv?oc=5",
+      "statut": "A verifier",
+      "categorie": "Non classe",
+      "recuperation_automatique": false,
+      "compatible_coinbase": null,
+      "compatible_kraken": null
+    },
+    {
+      "source": "Airdrops gratuits France",
+      "titre": "Impôt sur les airdrops de cryptos : tout ce qu'il faut savoir en 2024 - Cryptoast",
+      "lien": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE52OWtvRnpzVnRuWFhvMUdXay00cFBNTU4xQWRQajNFT2ZLRkhtUk1EUjlHRW5wdHBzTTBrVTV6SXZMVVhEZHZfcnN3NS1fTHZRWW8tdkl6UQ?oc=5",
       "statut": "A verifier",
       "categorie": "Non classe",
       "recuperation_automatique": false,
@@ -33,19 +43,9 @@
       "compatible_kraken": null
     },
     {
-      "source": "Airdrops gratuits France",
-      "titre": "KuCoin lance le bootcamp « Prepare for Winter » avec un airdrop de 100 USDT en contrats Futures pour les nouveaux utilisateurs - Traders Union",
-      "lien": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOelZhZGtGZTRyeFhHT25FM2VFa2xkY1RaSFBydzRYUGNudzJ0T0lfU0FFRWt4NXk4Y3hXOUxjQ1hLZnRJdTAtMDBBQ2hBRFJPbUxBOXlvNU9HRHczcEdMbGxiQzJKZEdmdlNBaG4wV2ZzWVZiazR1VGVCc3BqM0planA0V1Q0SXA0cWpRYW8ya0M0NFlqemtMWEN4MlEzT01pbXc?oc=5",
-      "statut": "A verifier",
-      "categorie": "Non classe",
-      "recuperation_automatique": false,
-      "compatible_coinbase": null,
-      "compatible_kraken": null
-    },
-    {
       "source": "Recompenses crypto",
-      "titre": "Comment commencer avec Binance « Learn & Earn » ? - Binance",
-      "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWdlbmtVMFpMUTFLMC1UWVNHWnJnOGs3RmxSUmNXcFd4UThhY0Jfbk5KbXJsY3NHU1BUVjlSNEJVVDN4WmJTYzhGZ3p0N0hLU0UxemdRR2FhOGdfR25fbk1BVkEzWmRrTGtmaV9Db0VINzU5QkNGQ0FVdkpzZGVZN1BzZXI?oc=5",
+      "titre": "Comment Gagner du USDT Gratuit sur Binance : Un Guide Complet pour 2024 - Binance",
+      "lien": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fbGZLM1BsM3NIQ3hNRW9Kd0M3UHFwLWtTVGxVdE0wa3BrMTZ4azVTeHhNYzBEQXgwb3NFYl9Cdnc3SjI1R3pTLUR3bndOUHltaDQ3Vl9HNzladXVUU01fQXVPSQ?oc=5",
       "statut": "A verifier",
       "categorie": "Non classe",
       "recuperation_automatique": false,
@@ -56,6 +56,16 @@
       "source": "Recompenses crypto",
       "titre": "Meilleurs Play to Earn : Le TOP 4 des meilleurs P2E 2026 - icobench.com",
       "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XRTZkMWtNaXJQNm9iQkFpRnFCQWp4aVJSNXdQUWJGQ0hpbm9Ia1dfN3JLblhER3FybzFDeHBPVWx1WUQ3QUNpcXBiTnBHa2s1bGlUQW9UNVVvTE0?oc=5",
+      "statut": "A verifier",
+      "categorie": "Non classe",
+      "recuperation_automatique": false,
+      "compatible_coinbase": null,
+      "compatible_kraken": null
+    },
+    {
+      "source": "Recompenses crypto",
+      "titre": "Comment commencer avec Binance « Learn & Earn » ? - Binance",
+      "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWdlbmtVMFpMUTFLMC1UWVNHWnJnOGs3RmxSUmNXcFd4UThhY0Jfbk5KbXJsY3NHU1BUVjlSNEJVVDN4WmJTYzhGZ3p0N0hLU0UxemdRR2FhOGdfR25fbk1BVkEzWmRrTGtmaV9Db0VINzU5QkNGQ0FVdkpzZGVZN1BzZXI?oc=5",
       "statut": "A verifier",
       "categorie": "Non classe",
       "recuperation_automatique": false,
@@ -143,9 +153,9 @@
       "compatible_kraken": null
     },
     {
-      "source": "Nouveaux projets crypto",
-      "titre": "Guide complet de Crypto Airdrop : comment obtenir des jetons gratuitement - Binance",
-      "lien": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IbnVPT0N0ci1NX0VYZkQzVUY1QlZ1OEdKTWZId3AzVXpkNEE4NVNIU2NkZU81eVpLUl9HMTdHWmw3ZG9HeHMwcVdKVlppRXcwNjhNVXR2Rm4yd1lYUEozUFhB?oc=5",
+      "source": "Airdrops avant cotation",
+      "titre": "Airdrop Dymension - Comment récupérer les tokens DYM après le listing de Binance ? - Cryptoast",
+      "lien": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQM0F4OEVUdnluRnF2VW56YWFDMHpTLVhFLS1qWmFxbURmQS1YYmJpZDNNZElWTUNGUnM1RDVQc2N3SUFoVFh6bTNGUWtYeUp6QmpwU05MVlU0dnBpZ3VCTy1WNTZEdjAyMTQ2S2VrMFM2Z05DTzZqYkhmcXJuQlJGQ3lR?oc=5",
       "statut": "A verifier",
       "categorie": "Non classe",
       "recuperation_automatique": false,
@@ -156,6 +166,16 @@
       "source": "Nouveaux projets crypto",
       "titre": "Meilleurs airdrops crypto 2026-2027 : les projets à ne pas louper - Cryptoast",
       "lien": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IVEIwbk1DTVlFbUdtMW1FNE5kRWtkWWxoTlBYdmRXaWdqREFaUXlfejhwd2xhN0llaDNFcm5nMjB3YWZOa3h5LTZ6Z0luNWRHR1Jr?oc=5",
+      "statut": "A verifier",
+      "categorie": "Non classe",
+      "recuperation_automatique": false,
+      "compatible_coinbase": null,
+      "compatible_kraken": null
+    },
+    {
+      "source": "Nouveaux projets crypto",
+      "titre": "Guide complet de Crypto Airdrop : comment obtenir des jetons gratuitement - Binance",
+      "lien": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IbnVPT0N0ci1NX0VYZkQzVUY1QlZ1OEdKTWZId3AzVXpkNEE4NVNIU2NkZU81eVpLUl9HMTdHWmw3ZG9HeHMwcVdKVlppRXcwNjhNVXR2Rm4yd1lYUEozUFhB?oc=5",
       "statut": "A verifier",
       "categorie": "Non classe",
       "recuperation_automatique": false,

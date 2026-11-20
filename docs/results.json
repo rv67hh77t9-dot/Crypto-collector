@@ -1,11 +1,21 @@
 {
-  "date": "2026-11-19T08:13:17.169111+00:00",
+  "date": "2026-11-20T08:09:02.953171+00:00",
   "avertissement": "Articles a verifier : aucune recompense garantie.",
   "opportunites": [
     {
       "source": "Airdrops gratuits France",
       "titre": "Gagner des cryptos gratuitement : 14 méthodes pour gagner de la crypto-monnaie - Cryptonaute",
       "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqN1pQZ2dQLWo3R1hTdGZUNjMyOXhrdlZBb0RleFA0YTZnT2FkNFo4RlRpTmlpNmJBLXM1Vnc4X2ZmSDNld3FwMXJTZEpyamIycl9nbkwtSGZZN0loS2dsRE9NVVBuTzdlMTBv?oc=5",
+      "statut": "A verifier",
+      "categorie": "Non classe",
+      "recuperation_automatique": false,
+      "compatible_coinbase": null,
+      "compatible_kraken": null
+    },
+    {
+      "source": "Airdrops gratuits France",
+      "titre": "KuCoin dévoile un airdrop de position sur contrats à terme de 100 USDT pour les nouveaux utilisateurs dans sa dernière campagne - Traders Union",
+      "lien": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUFR0MDVCS205UEo2cm00SHFBTDdwU2VOR1FSOEJTNGhxTXAta2pjU2xjVDNseU00NElaVC11Y2xVNDd3dW1qTHEzMmxiVHdUQk1SdFpWVFEtMzlxM3B6anJfbV9oMk1BUmZnSDRnY3ZsUW9SY2Y1YlVkVVRHYVJIcVhBcElXajFsMFhrbzFtNW5idnJ4ZHFTbFNrdnRuQQ?oc=5",
       "statut": "A verifier",
       "categorie": "Non classe",
       "recuperation_automatique": false,
@@ -74,8 +84,8 @@
     },
     {
       "source": "Recompenses crypto",
-      "titre": "Crypto-monnaies gratuites — comment les obtenir ? - Binance",
-      "lien": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9zZGt5V0x0dlV5VXNrN3RsN1lGSXkyNElaTlpkQVBsazBHT1FSdDZVTE1HbXlxZDUxWS0yMkNjNlhSU3lSOGZqRG9yYUhHcmZBNU4xNm5UcnJVcjBNNGIxa0Jsdw?oc=5",
+      "titre": "Binance NFT Learn and Earn: Learn About GameFi and Share $12,500 in Prizes - Binance",
+      "lien": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNc1BKYk0wdkp1SmJJMDZ3bkcwa2c2QUxZNFIwUDc2Z3gxY0RNZ1ZXSXN1dFN2M3VpczV5TTgyRkR3dG5rN3A0ZlN0UkRWSEVETUxiYTNoNkVtZWpYc1lVRG5tbGY0WGxCblNqSUFpMG1PZGZUelVCUVBZWkhublE4OWZEU043Y2ZYd0E0VkRBYVZoQ09SZE9FdEhpcjUxR2wwVlBWajFKLU5wT0F6bXBnYlVxTUZaa2p4T2FjRnRFX1pDbFRVcWxDNk41ZzVEZ2E5RWY5YkF5Y05zbllBeXJtaVFRbmc1TXhR?oc=5",
       "statut": "A verifier",
       "categorie": "Non classe",
       "recuperation_automatique": false,
@@ -161,27 +171,10 @@
       "recuperation_automatique": false,
       "compatible_coinbase": null,
       "compatible_kraken": null
-    },
-    {
-      "source": "Nouveaux projets crypto",
-      "titre": "Meilleurs airdrops crypto 2026-2027 : les projets à ne pas louper - Cryptoast",
-      "lien": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IVEIwbk1DTVlFbUdtMW1FNE5kRWtkWWxoTlBYdmRXaWdqREFaUXlfejhwd2xhN0llaDNFcm5nMjB3YWZOa3h5LTZ6Z0luNWRHR1Jr?oc=5",
-      "statut": "A verifier",
-      "categorie": "Non classe",
-      "recuperation_automatique": false,
-      "compatible_coinbase": null,
-      "compatible_kraken": null
-    },
-    {
-      "source": "Nouveaux projets crypto",
-      "titre": "Guide complet de Crypto Airdrop : comment obtenir des jetons gratuitement - Binance",
-      "lien": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IbnVPT0N0ci1NX0VYZkQzVUY1QlZ1OEdKTWZId3AzVXpkNEE4NVNIU2NkZU81eVpLUl9HMTdHWmw3ZG9HeHMwcVdKVlppRXcwNjhNVXR2Rm4yd1lYUEozUFhB?oc=5",
-      "statut": "A verifier",
-      "categorie": "Non classe",
-      "recuperation_automatique": false,
-      "compatible_coinbase": null,
-      "compatible_kraken": null
     }
   ],
-  "erreurs_sources": []
+  "erreurs_sources": [
+    "Nouveaux airdrops: HTTPError: HTTP Error 429: Too Many Requests",
+    "Nouveaux projets crypto: HTTPError: HTTP Error 429: Too Many Requests"
+  ]
 }

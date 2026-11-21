@@ -1,11 +1,21 @@
 {
-  "date": "2026-11-20T08:09:02.953171+00:00",
+  "date": "2026-11-21T08:00:03.083953+00:00",
   "avertissement": "Articles a verifier : aucune recompense garantie.",
   "opportunites": [
     {
       "source": "Airdrops gratuits France",
       "titre": "Gagner des cryptos gratuitement : 14 méthodes pour gagner de la crypto-monnaie - Cryptonaute",
       "lien": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqN1pQZ2dQLWo3R1hTdGZUNjMyOXhrdlZBb0RleFA0YTZnT2FkNFo4RlRpTmlpNmJBLXM1Vnc4X2ZmSDNld3FwMXJTZEpyamIycl9nbkwtSGZZN0loS2dsRE9NVVBuTzdlMTBv?oc=5",
+      "statut": "A verifier",
+      "categorie": "Non classe",
+      "recuperation_automatique": false,
+      "compatible_coinbase": null,
+      "compatible_kraken": null
+    },
+    {
+      "source": "Airdrops gratuits France",
+      "titre": "Guide complet : Qu'est-ce que le Crypto Airdrop ? - CryptoTicker.io",
+      "lien": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9LZUptTEZna01aWEpZUFFKVDJ3QzNrd1M3SXBFbmQxS2s5T2NyY0tGejBqN01pQzNJcnljQVBBV1ZXd0NDOGR0cy0yRktuTnlzZU45Vg?oc=5",
       "statut": "A verifier",
       "categorie": "Non classe",
       "recuperation_automatique": false,
@@ -64,6 +74,16 @@
     },
     {
       "source": "Recompenses crypto",
+      "titre": "Comment commencer avec Binance « Learn & Earn » ? - Binance",
+      "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWdlbmtVMFpMUTFLMC1UWVNHWnJnOGs3RmxSUmNXcFd4UThhY0Jfbk5KbXJsY3NHU1BUVjlSNEJVVDN4WmJTYzhGZ3p0N0hLU0UxemdRR2FhOGdfR25fbk1BVkEzWmRrTGtmaV9Db0VINzU5QkNGQ0FVdkpzZGVZN1BzZXI?oc=5",
+      "statut": "A verifier",
+      "categorie": "Non classe",
+      "recuperation_automatique": false,
+      "compatible_coinbase": null,
+      "compatible_kraken": null
+    },
+    {
+      "source": "Recompenses crypto",
       "titre": "Meilleurs Play to Earn : Le TOP 4 des meilleurs P2E 2026 - icobench.com",
       "lien": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9XRTZkMWtNaXJQNm9iQkFpRnFCQWp4aVJSNXdQUWJGQ0hpbm9Ia1dfN3JLblhER3FybzFDeHBPVWx1WUQ3QUNpcXBiTnBHa2s1bGlUQW9UNVVvTE0?oc=5",
       "statut": "A verifier",
@@ -74,8 +94,8 @@
     },
     {
       "source": "Recompenses crypto",
-      "titre": "Comment commencer avec Binance « Learn & Earn » ? - Binance",
-      "lien": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWWdlbmtVMFpMUTFLMC1UWVNHWnJnOGs3RmxSUmNXcFd4UThhY0Jfbk5KbXJsY3NHU1BUVjlSNEJVVDN4WmJTYzhGZ3p0N0hLU0UxemdRR2FhOGdfR25fbk1BVkEzWmRrTGtmaV9Db0VINzU5QkNGQ0FVdkpzZGVZN1BzZXI?oc=5",
+      "titre": "What is OKX Earn and How to Earn Passive Crypto Rewards - OKX",
+      "lien": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9CcUhqMzZHQjhua1JPQ1ZxTmZFcFJCZ1c0RUxDYS1VZFJlRXkySEFscGd5WHBVMFVYUUgydW5na1BNd0M1MkYwQ1N6a19hWTRYWkZ2SFVlazhYak9L?oc=5",
       "statut": "A verifier",
       "categorie": "Non classe",
       "recuperation_automatique": false,
@@ -171,10 +191,37 @@
       "recuperation_automatique": false,
       "compatible_coinbase": null,
       "compatible_kraken": null
+    },
+    {
+      "source": "Airdrops avant cotation",
+      "titre": "Binance prendra en charge l’airdrop de Pepper (1000PEPPER) pour les détenteurs de Chiliz (CHZ) - Binance",
+      "lien": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ3Q0NS11d0xiM2FpX29HUGpKcjlSVXNRRGNGYWc0ZUtOQnJyYjNaXzNvY1dRc0w3RUMxX0JJckp1ZGsydGpqVU5ZWTRIUmNZWm1Eek9SV0ZBZjFmYUl3ZEZnQXVBenQ4VEd1WEJWbUpZWGREMmhlLUMwTFk3T2VZOU1oM3JvWEhGR2ZlcHpMU01ONnJY?oc=5",
+      "statut": "A verifier",
+      "categorie": "Non classe",
+      "recuperation_automatique": false,
+      "compatible_coinbase": null,
+      "compatible_kraken": null
+    },
+    {
+      "source": "Nouveaux projets crypto",
+      "titre": "Meilleurs airdrops crypto 2026-2027 : les projets à ne pas louper - Cryptoast",
+      "lien": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IVEIwbk1DTVlFbUdtMW1FNE5kRWtkWWxoTlBYdmRXaWdqREFaUXlfejhwd2xhN0llaDNFcm5nMjB3YWZOa3h5LTZ6Z0luNWRHR1Jr?oc=5",
+      "statut": "A verifier",
+      "categorie": "Non classe",
+      "recuperation_automatique": false,
+      "compatible_coinbase": null,
+      "compatible_kraken": null
+    },
+    {
+      "source": "Nouveaux projets crypto",
+      "titre": "Guide complet de Crypto Airdrop : comment obtenir des jetons gratuitement - Binance",
+      "lien": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IbnVPT0N0ci1NX0VYZkQzVUY1QlZ1OEdKTWZId3AzVXpkNEE4NVNIU2NkZU81eVpLUl9HMTdHWmw3ZG9HeHMwcVdKVlppRXcwNjhNVXR2Rm4yd1lYUEozUFhB?oc=5",
+      "statut": "A verifier",
+      "categorie": "Non classe",
+      "recuperation_automatique": false,
+      "compatible_coinbase": null,
+      "compatible_kraken": null
     }
   ],
-  "erreurs_sources": [
-    "Nouveaux airdrops: HTTPError: HTTP Error 429: Too Many Requests",
-    "Nouveaux projets crypto: HTTPError: HTTP Error 429: Too Many Requests"
-  ]
+  "erreurs_sources": []
 }
